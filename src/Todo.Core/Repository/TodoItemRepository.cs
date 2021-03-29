@@ -54,6 +54,7 @@ namespace Todo.Core.Repository
             { 
                 Id = task.Id,
                 Subject = task.Subject,
+                CompletedDateTime = task.CompletedDateTime,
                 IsCompleted = task.Status == TaskStatus.Completed
             });
         }
